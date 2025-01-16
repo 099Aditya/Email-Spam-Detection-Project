@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:/Users/Administrator/Desktop/Project/Spam Detection Main/9.PNG');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border-color: BLACK;
+    background-color: #ADBBDA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #EDE8F5;
+    text-align: center;
+    
+}
+textarea::placeholder { 
+    color: black; /* Placeholder text color */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button:active { background-color: #003d82; /* Darker color on click */ 
+    transform: scale(0.95); /* Slightly scale down on click */ }
+#result {
+    margin-top: 10px;
+}
+.owner-box { 
+    color: white; 
+    padding: 10px;
+    border-radius: 4px; 
+    position: fixed;
+    bottom: 10px; 
+    left: 3px;
+    font-size: 15px
+}
+
